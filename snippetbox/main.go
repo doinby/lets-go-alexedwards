@@ -1,8 +1,10 @@
 package main
 
 import (
+	"fmt"
 	"log"
 	"net/http"
+	"strconv"
 )
 
 // Index and 404 page
@@ -20,7 +22,19 @@ func home(w http.ResponseWriter, r *http.Request) {
 }
 
 func snippetView(w http.ResponseWriter, r *http.Request) {
-	w.Write([]byte("Display a specific snippet..."))
+	// Extract the value of the id parameter from the query string and
+	// convert it to an integer using the strconv.Atoi() function.
+	// If value can't be converted to an integer, or less than 1
+	// Return 404
+	id, err := strconv.Atoi(r.URL.Query().Get("id"))
+	if err != nil || id < 1 {
+		http.NotFound(w, r)
+		return
+	}
+
+	// Use the fmt.Fprintf() function to interpolate id value
+	// and write it to the http.ResponseWriter.
+	fmt.Fprintf(w, "Display a specific snippet with ID %d...", id)
 }
 
 func snippetCreate(w http.ResponseWriter, r *http.Request) {
