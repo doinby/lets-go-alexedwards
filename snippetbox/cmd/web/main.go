@@ -1,7 +1,9 @@
 package main
 
 import (
+	"database/sql"
 	"flag"
+	_ "github.com/go-sql-driver/mysql"
 	"log"
 	"net/http"
 	"os"
@@ -16,6 +18,7 @@ type application struct {
 func main() {
 	// Define a command line flag with a default of 3000
 	addr := flag.String("addr", ":3000", "HTTP network access")
+	dsn := flag.String("dsn", "web:pass@/snippetbox?parseTime=true", "MySQL data source name")
 
 	flag.Parse()
 
@@ -30,6 +33,15 @@ func main() {
 	// the destination and use the log.Lshortfile flag to include the relevant
 	// file name and line number.
 	errorLog := log.New(os.Stderr, "ERROR\t", log.Ldate|log.Ltime|log.Lshortfile)
+
+	//
+	db, err := openDB(*dsn)
+	if err != nil {
+		errorLog.Fatal(err)
+	}
+
+	// Defer a call to db.Close() so the connection pool is closed before main() exits
+	defer db.Close()
 
 	// Initialise new instance of app which contains dependencies
 	// Now we can use our application struct's methods as handler func
@@ -50,6 +62,18 @@ func main() {
 	}
 
 	infoLog.Printf("Starting server on %s", *addr)
-	err := srv.ListenAndServe()
+	err = srv.ListenAndServe()
 	errorLog.Fatal(err)
+}
+
+// Function which uses Go's sql.Open() and returns sql.Open() connection pool
+func openDB(dsn string) (*sql.DB, error) {
+	db, err := sql.Open("mysql", dsn)
+	if err != nil {
+		return nil, err
+	}
+	if err = db.Ping(); err != nil {
+		return nil, err
+	}
+	return db, nil
 }
