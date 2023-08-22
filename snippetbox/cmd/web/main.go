@@ -7,12 +7,16 @@ import (
 	"log"
 	"net/http"
 	"os"
+	"snippetbox.doinby.net/internal/models"
 )
 
 // Define an application struct to hold the application-wide dependencies
 type application struct {
 	errorLog *log.Logger
 	infoLog  *log.Logger
+
+	// Make SnippetModel object available to handler functions
+	snippet *models.SnippetModel
 }
 
 func main() {
@@ -49,6 +53,9 @@ func main() {
 	app := &application{
 		errorLog: errorLog,
 		infoLog:  infoLog,
+
+		// Initialise models.SnippetModel instance and add it to application dependencies
+		snippets: &models.SnippetModel{DB: db},
 	}
 
 	// Initialize a new http.Server struct,
