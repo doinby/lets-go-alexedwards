@@ -16,7 +16,7 @@ type application struct {
 	infoLog  *log.Logger
 
 	// Make SnippetModel object available to handler functions
-	snippet *models.SnippetModel
+	snippets *models.SnippetModel
 }
 
 func main() {
