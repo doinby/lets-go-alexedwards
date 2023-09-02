@@ -1,0 +1,139 @@
+Script started on Fri Aug 25 10:07:18 2023
+[1m[7m%[27m[1m[0m                                                                                  ]0;%~[0m[27m[24m[J [39m▲[39m [34mGithub/lets-go-alexedwards/snippetbox[39m 
+ [K[?2004h[A[0m[27m[24m[J [39m▲[39m [34mGithub/lets-go-alexedwards/snippetbox[39m 
+ [K[4mc[24m[4mc[24m[90md[39m[24m[32mc[32mu[39m[90mrl http://localhost:3000/snippet/view?id=1[39m[42D[1m[31mc[1m[31mu[1m[31mr[0m[39m[0m[32mc[0m[32mu[0m[32mr[32ml[39m[39m [39mh[39mt[39mt[39mp[39m:[39m/[39m/[39ml[39mo[39mc[39ma[39ml[39mh[39mo[39ms[39mt[39m:[39m3[39m0[39m0[39m0[39m/[39ms[39mn[39mi[39mp[39mp[39me[39mt[39m/[39mv[39mi[39me[39mw[34m?[39m[39mi[39md[39m=[39m1[1C[D  [D[D;5[1m[31m5[1m[31mD[0m[39m[1m[31mD[1m[31m;[0m[39m[1m[31m;[1m[31m5[0m[39m[1m[31mD[0m[39m[0m[39m;[1m[31m5[1m[31mD[0m[39m[1m[31mD[1m[31m;[0m[39m[1m[31m;[1m[31m5[0m[39m[1m[31mD[0m[39m[0m[39m;[1m[31m5[1m[31mD[0m[39m[1m[31mD[1m[31mc[0m[39m[1m[31mc[1m[31ml[0m[39m[1m[31ml[1m[31me[0m[39m[1m[31me[1m[31ma[0m[39m[1m[31ma[1m[31mr[0m[39m[?2004l
+]0;curl http://localhost:3000/snippet/view?id=1[D[D; 5D; 5D; 5Dclear @ snippetboxzsh: bad pattern: http://localhost:3000/snippet/view?id=1[D[D
+zsh: command not found: 5D
+zsh: command not found: 5D
+zsh: command not found: 5Dclear
+[1m[7m%[27m[1m[0m                                                                                  ]0;%~[0m[27m[24m[J [31m△[39m [34mGithub/lets-go-alexedwards/snippetbox[39m 
+ [K[67C[38;5;242mmaster[39m [32m24m[39m [31m⬡[39m[79D[?2004h[A[0m[27m[24m[J [31m△[39m [34mGithub/lets-go-alexedwards/snippetbox[39m 
+ [K[67C[38;5;242mmaster[39m [32m28m[39m [31m⬡[39m[79D[32mcurl[39m http://localhost:3000/snippet/view[34m?[39mid=1[D[D;[1m[31m5D[0m[39m;[1m[31m5D[0m[39m;[1m[31m5Dclear[0m[39m[1m[31mr[1m[31m[[0m[39m[1m[31m[[1m[31mD[0m[39m[1m[31mD[1m[31m;[0m[39m[1m[31m;[1m[31m5[0m[39m[1m[31mD[0m[39m[0m[39m;[1m[31m5[1m[31mD[0m[39m[K[1m[31mD[1m[31m[[0m[39m[1m[31m[[1m[31mD[0m[39m[1m[31mD[1m[31m[[0m[39m[1m[31m[[1m[31mD[0m[39m[1m[31mD[1m[31m;[0m[39m[1m[31m;[1m[31m5[0m[39m[1m[31mD[0m[39m[0m[39m;[1m[31m5[1m[31mD[0m[39m[1m[31mD[1m[31m;[0m[39m[1m[31m;[1m[31m5[0m[39m[1m[31mD[0m[39m[0m[39m;[1m[31m5[1m[31mD[0m[39m[1m[31mD[1m[31mc[0m[39m[1m[31mc[1m[31ml[0m[39m[1m[31ml[1m[31me[0m[39m [K[K[A[81C[1m[31me[1m[31ma[0m[39m[1m[31ma[1m[31mr[0m[39m[?2004l
+]0;curl http://localhost:3000/snippet/view?id=1[D[D; 5D; 5D; 5Dclear[D; 5D[D[D;  @ snippetboxzsh: bad pattern: http://localhost:3000/snippet/view?id=1[D[D
+zsh: command not found: 5D
+zsh: command not found: 5D
+zsh: bad pattern: 5Dclear[D
+[1m[7m%[27m[1m[0m                                                                                  ]0;%~[0m[27m[24m[J [31m△[39m [34mGithub/lets-go-alexedwards/snippetbox[39m 
+ [K[67C[38;5;242mmaster[39m [32m28m[39m [31m⬡[39m[79D[?2004h[A[0m[27m[24m[J [31m△[39m [34mGithub/lets-go-alexedwards/snippetbox[39m 
+ [K[67C[38;5;242mmaster[39m [32m30m[39m [31m⬡[39m[79D[1m[31me[0m[39m[1m[31me[0m[39m[90mxec zsh[39m[0m[32me[32mx[39m[1m[31me[1m[31mx[1m[31me[0m[39m[0m[4m[32me[0m[4m[32mx[0m[4m[32me[4m[32mc[24m[39m[39m [32mz[32ms[32mh[39m[?2004l
+]0;exec zsh @ snippetbox[1m[7m%[27m[1m[0m                                                                                  ]0;%~[0m[27m[24m[J [39m▲[39m [34mGithub/lets-go-alexedwards/snippetbox[39m 
+ [K[?2004h[A[0m[27m[24m[J [39m▲[39m [34mGithub/lets-go-alexedwards/snippetbox[39m 
+ [K[4mc[24m[4mc[24m[90murl http://localhost:3000/snippet/view?id=1[D[D;5D;5D;5Dclear[D;5D[D[D;5D;5Dcle[90ma[90mr[39m[K[A[1C[24m[1m[31mc[1m[31ml[0m[39m[K[1B[K[A[4C[90mear[39m[1m[31mc[1m[31ml[1m[31me[0m[39m[1m[31me[1m[31ma[0m[39m[0m[32mc[0m[32ml[0m[32me[0m[32ma[32mr[39m[?2004l[1B]0;clear @ snippetbox[H[2J[1m[7m%[27m[1m[0m                                                                                  ]0;%~[0m[27m[24m[J [39m▲[39m [34mGithub/lets-go-alexedwards/snippetbox[39m 
+ [K[67C[38;5;242mmaster[39m [32m30m[39m [31m⬡[39m[79D[?2004h[A[0m[27m[24m[J [39m▲[39m [34mGithub/lets-go-alexedwards/snippetbox[39m 
+ [K[67C[38;5;242mmaster[39m [32m30m[39m [31m⬡[39m[79D[4mc[24m[4mc[24m[90mlear[39m[24m[32mc[32mu[39m[39m [39m [39m [90mrl http://localhost:3000/snippet/view?id=1[D[D;5D;5D;5Dclear[D;5D[D[D;5D;5Dcle[90ma[90mr[39m[K[A[2C[1m[31mc[1m[31mu[1m[31mr[0m[39m[0m[32mc[0m[32mu[0m[32mr[32ml[39m[39m [39mh[39mt[39mt[39mp[39m:[39m/[39m/[39ml[39mo[39mc[39ma[39ml[39mh[39mo[39ms[39mt[39m:[39m3[39m0[39m0[39m0[K[41C[38;5;242mmaster[39m [32m30m[39m [31m⬡[39m[1B[K[A[28C[?2004l[1B]0;curl http://localhost:3000 @ snippetbox
+    <html lang='en'>
+        <head>
+            <meta charset='utf-8'>
+            <title>HOME | Snippetbox</title>
+            
+            <link rel='stylesheet' href='/static/css/main.css'>
+            <link rel='shortcut icon' href='/static/img/favicon.ico' type='image/x-icon'>
+            
+            <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700'>
+        </head>
+        <body>
+            <header>
+                <h1><a href='/'>Snippetbox</a></h1>
+            </header>
+            
+    <nav>
+        <a href="/">Home</a>
+    </nav>
+
+            <main>
+                
+    <h2>Latest Snippets</h2>
+    <p>There's nothing to see here yet!</p>
+
+            </main>
+            <footer>Powered by <a href='https://golang.org/'>Go</a></footer>
+            
+            <script src="/static/js/main.js" type="text/javascript"></script>
+        </body>
+    </html>
+[1m[7m%[27m[1m[0m                                                                                  ]0;%~[0m[27m[24m[J [39m▲[39m [34mGithub/lets-go-alexedwards/snippetbox[39m 
+ [K[67C[38;5;242mmaster[39m [32m30m[39m [31m⬡[39m[79D[?2004h[A[0m[27m[24m[J [39m▲[39m [34mGithub/lets-go-alexedwards/snippetbox[39m 
+ [K[67C[38;5;242mmaster[39m [32m30m[39m [31m⬡[39m[79D[32mcurl[39m http://localhost:3000[D;5[1m[31m5[1m[31mD[0m[39m[1m[31mD[1m[31m;[0m[39m[1m[31m;[1m[31m5[0m[39m[1m[31mD[0m[39m[0m[39m;[1m[31m5[1m[31mD[0m[39m[1m[31mD[1m[31m;[0m[39m[1m[31m;[1m[31m5[0m[39m[1m[31mD[0m[39m[0m[39m;[1m[31m5[1m[31mD[0m[39m[1m[31mD[1m[31m[[0m[39m[1m[31m[[1m[31mD[0m[39m[1m[31mD[1m[31m[[0m[39m[1m[31m[[1m[31mD[0m[39m[1m[31m[[1m[31mD[0m[39m[1m[31mD[1m[31mD[0m[39m[1m[31m[[1m[31mD[0m[39m[1m[31mD[1m[31mD[0m[39m[1m[31m[[1m[31mD[0m[39m[1m[31mD[1m[31mD[0m[39m[1m[31m[[1m[31mD[0m[39m[1m[31mD[1m[31mD[0m[39m[1m[31m[[1m[31mD[0m[39m[1m[31mC[1m[31mD[0m[39m[1m[31m;[1m[31mD[0m[39m[1m[31m5[1m[31mD[0m[39m[1m[31mC[0m[39m[0m[39m;[1m[31m5[1m[31mD[1m[31mD[0m[39m[1m[31m[[1m[31mD[0m[39m[1m[31mD[1m[31mD[0m[39m[1m[31m[[1m[31mD[0m[39m[1m[31mC[1m[31mD[0m[39m[1m[31m[[1m[31mD[0m[39m[1m[31mD[1m[31mD[0m[39m[1m[31m[[1m[31mD[0m[39m[1m[31mC[1m[31mD[0m[39m[1m[31m[[1m[31mD[0m[39m[1m[31mD[1m[31mD[0m[39m[1m[31m[[1m[31mD[0m[39m[1m[31mC[1m[31mD[0m[39m[1m[31m[[1m[31mD[0m[39m[K[1m[31mD[1m[31mD[0m[39m[1m[31m[[1m[31mD[0m[39m[1m[31mC[1m[31mD[0m[39m[1m[31m[[1m[31mD[0m[39m[1m[31mD[1m[31mD[0m[39m[1m[31m[[1m[31mD[0m[39m[1m[31mC[1m[31mD[0m[39m[?2004l
+]0;curl http://localhost:3000[D; 5D; 5D; 5D[D[[D[D[D[D[C; 5D[D[C[D[C[D[C[D[C[D[C @ snippetboxzsh: bad pattern: http://localhost:3000[D
+zsh: command not found: 5D
+zsh: command not found: 5D
+zsh: bad pattern: 5D[D[[D[D[D[D[C
+[1m[7m%[27m[1m[0m                                                                                  ]0;%~[0m[27m[24m[J [31m△[39m [34mGithub/lets-go-alexedwards/snippetbox[39m 
+ [K[67C[38;5;242mmaster[39m [32m30m[39m [31m⬡[39m[79D[?2004h[A[0m[27m[24m[J [31m△[39m [34mGithub/lets-go-alexedwards/snippetbox[39m 
+ [K[67C[38;5;242mmaster[39m [32m30m[39m [31m⬡[39m[79D[4mc[24m[4mc[24m[90murl http://localhost:3000[D;5D;5D;5D[D[[D[D[D[D[C;5D[D[C[D[C[D[C[D[C[D[CD[39m[K[73D[24m[1m[31mc[1m[31ml[0m[39m[K[65C[38;5;242mmaster[39m [32m30m[39m [31m⬡[39m[77D[90mear[39m[1m[31mc[1m[31ml[1m[31me[0m[39m[1m[31me[1m[31ma[0m[39m[0m[32mc[0m[32ml[0m[32me[0m[32ma[32mr[39m[?2004l
+]0;clear @ snippetbox[H[2J[1m[7m%[27m[1m[0m                                                                                  ]0;%~[0m[27m[24m[J [39m▲[39m [34mGithub/lets-go-alexedwards/snippetbox[39m 
+ [K[67C[38;5;242mmaster[39m [32m30m[39m [31m⬡[39m[79D[?2004h[A[0m[27m[24m[J [39m▲[39m [34mGithub/lets-go-alexedwards/snippetbox[39m 
+ [K[67C[38;5;242mmaster[39m [32m30m[39m [31m⬡[39m[79D[[1m[31m[[1m[31mC[0m[39m[0m[32mc[0m[32ml[32mear[39m[32mc[32mu[32mr[32ml[39m[39m http://localhost:3000[D;[1m[31m5D[0m[39m;[1m[31m5D[0m[39m;[1m[31m5D[D[[D[D[D[D[C[0m[39m;[1m[31m5D[D[C[D[C[D[C[D[C[D[CD[0m[39m[K[48D[K[41C[38;5;242mmaster[39m [32m30m[39m [31m⬡[39m[53D[D[90m;5D;5D;5D[D[[D[D[D[D[C;5D[D[C[D[C[D[C[D[C[D[CD[39m[K[46D[39m;[90m;[90m5[90mD[90m;[90m5[90mD[90m;[90m5[90mD[90m[[90mD[90m[[90m[[90mD[90m[[90mD[90m[[90mD[90m[[90mD[90m[[90mC[90m;[90m5[90mD[39m[3P[16C[90m[[90mD[CD[39m[46D[39m5[90m;[90m5[90mD[90m;[90m5[90mD[90m;[90m5[90mD[90m[[90mD[90m[[90m[[90mD[90m[[90mD[90m[[90mD[90m[[90mD[90m[[90mC[90m;[90m5[90mD[39m[3P[16C[90m[[90mD[CD[39m[46D[1m[31m5[1m[31mD[0m[39m[K[36C[38;5;242mmaster[39m [32m30m[39m [31m⬡[39m[48D[90m;5D;5D[D[[D[D[D[D[C;5D[D[C[D[C[D[C[D[C[D[CD[39m[K[43D[1m[31m5[0m[39m[K[37C[38;5;242mmaster[39m [32m30m[39m [31m⬡[39m[49D[90mD;5D;5D[D[[D[D[D[D[C;5D[D[C[D[C[D[C[D[C[D[CD[39m[K[44D[K[38C[38;5;242mmaster[39m [32m30m[39m [31m⬡[39m[50D[90m5D;5D;5D[D[[D[D[D[D[C;5D[D[C[D[C[D[C[D[C[D[CD[39m[K[45D[K[39C[38;5;242mmaster[39m [32m30m[39m [31m⬡[39m[51D[90m;5D;5D;5D[D[[D[D[D[D[C;5D[D[C[D[C[D[C[D[C[D[CD[39m[K[46D[K[40C[38;5;242mmaster[39m [32m30m[39m [31m⬡[39m[52D[90mD;5D;5D;5D[D[[D[D[D[D[C;5D[D[C[D[C[D[C[D[C[D[CD[39m[K[47D[K[41C[38;5;242mmaster[39m [32m30m[39m [31m⬡[39m[53D[90m[D;5D;5D;5D[D[[D[D[D[D[C;5D[D[C[D[C[D[C[D[C[D[CD[39m[K[48D[39m;[90m[[90mD[90m;[90m5[90mD[90m;[90m5[90mD[90m;[90m5[90mD[90m[[90mD[90m[[90m[[90mD[90m[[90mD[90m[[90mD[90m[[90mD[90m[[90mC[90m;[90m5[90mD[39m[3P[16C[90m[[90mD[CD[39m[48D[39m5[90m[[90mD[90m;[90m5[90mD[90m;[90m5[90mD[90m;[90m5[90mD[90m[[90mD[90m[[90m[[90mD[90m[[90mD[90m[[90mD[90m[[90mD[90m[[90mC[90m;[90m5[90mD[39m[3P[16C[90m[[90mD[CD[39m[48D[1m[31m5[1m[31mD[0m[39m[K[38C[38;5;242mmaster[39m [32m30m[39m [31m⬡[39m[50D[1m[31mD[1m[31m[[0m[39m[1m[31m[[1m[31mD[0m[39m[?2004l
+]0;curl http://localhost:3000; 5D[D @ snippetbox
+    <html lang='en'>
+        <head>
+            <meta charset='utf-8'>
+            <title>HOME | Snippetbox</title>
+            
+            <link rel='stylesheet' href='/static/css/main.css'>
+            <link rel='shortcut icon' href='/static/img/favicon.ico' type='image/x-icon'>
+            
+            <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700'>
+        </head>
+        <body>
+            <header>
+                <h1><a href='/'>Snippetbox</a></h1>
+            </header>
+            
+    <nav>
+        <a href="/">Home</a>
+    </nav>
+
+            <main>
+                
+    <h2>Latest Snippets</h2>
+    <p>There's nothing to see here yet!</p>
+
+            </main>
+            <footer>Powered by <a href='https://golang.org/'>Go</a></footer>
+            
+            <script src="/static/js/main.js" type="text/javascript"></script>
+        </body>
+    </html>
+zsh: bad pattern: 5D[D
+[1m[7m%[27m[1m[0m                                                                                  ]0;%~[0m[27m[24m[J [31m△[39m [34mGithub/lets-go-alexedwards/snippetbox[39m 
+ [K[67C[38;5;242mmaster[39m [32m30m[39m [31m⬡[39m[79D[?2004h[A[0m[27m[24m[J [31m△[39m [34mGithub/lets-go-alexedwards/snippetbox[39m 
+ [K[67C[38;5;242mmaster[39m [32m32m[39m [31m⬡[39m[79D[4mc[24m[4mc[24m[90murl http://localhost:3000;5D[D[39m[30D[24m[32mc[32mu[39m[1m[31mc[1m[31mu[1m[31mr[0m[39m[0m[32mc[0m[32mu[0m[32mr[32ml[39m[39m [39mh[39mt[39mt[39mp[39m:[39m/[39m/[39ml[39mo[39mc[39ma[39ml[39mh[39mo[39ms[39mt[39m:[39m3[39m0[39m0[39m0[39m;[1m[31m5[1m[31mD[1m[31m[[1m[31mD[0m[39m[1m[31mD[1m[31m;[0m[39m[1m[31m;[1m[31m5[0m[39m[1m[31mD[0m[39m[0m[39m;[1m[31m5[1m[31mD[0m[39m[1m[31mD[1m[31m;[0m[39m[1m[31m;[1m[31m5[0m[39m[1m[31mD[0m[39m[0m[39m;[1m[31m5[1m[31mD[0m[39m[1m[31mD[1m[31m[[0m[39m[1m[31m[[1m[31mD[0m[39m[1m[31mD[1m[31m[[0m[39m[1m[31m[[1m[31mD[0m[39m[1m[31mD[1m[31m[[0m[39m[1m[31m[[1m[31mD[0m[39m[?2004l
+]0;curl http://localhost:3000; 5D[D; 5D; 5D[D[D[D @ snippetbox
+    <html lang='en'>
+        <head>
+            <meta charset='utf-8'>
+            <title>HOME | Snippetbox</title>
+            
+            <link rel='stylesheet' href='/static/css/main.css'>
+            <link rel='shortcut icon' href='/static/img/favicon.ico' type='image/x-icon'>
+            
+            <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700'>
+        </head>
+        <body>
+            <header>
+                <h1><a href='/'>Snippetbox</a></h1>
+            </header>
+            
+    <nav>
+        <a href="/">Home</a>
+    </nav>
+
+            <main>
+                
+    <h2>Latest Snippets</h2>
+    <p>There's nothing to see here yet!</p>
+
+            </main>
+            <footer>Powered by <a href='https://golang.org/'>Go</a></footer>
+            
+            <script src="/static/js/main.js" type="text/javascript"></script>
+        </body>
+    </html>
+zsh: bad pattern: 5D[D
+[1m[7m%[27m[1m[0m                                                                                  ]0;%~[0m[27m[24m[J [31m△[39m [34mGithub/lets-go-alexedwards/snippetbox[39m 
+ [K[67C[38;5;242mmaster[39m [32m32m[39m [31m⬡[39m[79D[?2004h[A[0m[27m[24m[J [31m△[39m [34mGithub/lets-go-alexedwards/snippetbox[39m 
+ [K[67C[38;5;242mmaster[39m [32m32m[39m [31m⬡[39m[79D[4mc[24m[4mc[24m[90murl http://localhost:3000;5D[D;5D;5D[D[D[D[39m[42D[24m[1m[31mc[1m[31ml[0m[39m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [41D[90mear[39m[1m[31mc[1m[31ml[1m[31me[0m[39m[1m[31me[1m[31ma[0m[39m[0m[32mc[0m[32ml[0m[32me[0m[32ma[32mr[39m[?2004l
+]0;clear @ snippetbox[H[2J[1m[7m%[27m[1m[0m                                                                                  ]0;%~[0m[27m[24m[J [39m▲[39m [34mGithub/lets-go-alexedwards/snippetbox[39m 
+ [K[67C[38;5;242mmaster[39m [32m32m[39m [31m⬡[39m[79D[?2004h[A[0m[27m[24m[J [39m▲[39m [34mGithub/lets-go-alexedwards/snippetbox[39m 
+ [K[67C[38;5;242mmaster[39m [32m32m[39m [31m⬡[39m[79D[32mclear[39m[32mr[32m[[39m[1m[31mc[1m[31ml[1m[31me[1m[31ma[1m[31mr[1m[31m[[1m[31mD[0m[39m[1m[31mD[1m[31m;[0m[39m[1m[31m;[1m[31m5[0m[39m[1m[31mD[0m[39m[0m[39m;[1m[31m5[1m[31mD[0m[39m[1m[31m5[0m[39m[0m[39m [0m[39m  [1m[31m[[0m[39m[0m[39m [0m[32mc[0m[32ml[0m[32me[0m[32ma[0m[32mr[39m[0m[39m [1m[31mc[1m[31ml[1m[31me[1m[31ma[0m[39m[39m [90mr[39m[1m[31me[0m[39m[0m[39m [39m [90mar[39m[1m[31mc[1m[31ml[0m[39m[0m[39m [39m [39m [90mear[39m[0m[39m[4mc[24m[0m[39m [39m [39m [39m [4mc[24m[90mlear[39m[24m [39m [39m [39m [39m 

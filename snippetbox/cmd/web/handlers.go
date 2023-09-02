@@ -3,7 +3,7 @@ package main
 import (
 	"errors"
 	"fmt"
-	"html/template"
+	//"html/template"
 	"net/http"
 	"snippetbox.doinby.net/internal/models"
 	"strconv"
@@ -18,30 +18,41 @@ func (app *application) home(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	// Initialize a slice function containing paths to templates.
-	// It's important to note that the file containing our BASE tmpl must be
-	// the *first* file in the slice.
-	files := []string{
-		"./ui/html/base.tmpl.html",
-		"./ui/html/partials/nav.tmpl.html",
-		"./ui/html/pages/home.tmpl.html",
-	}
-
-	// Parse HTML template into variable
-	ts, err := template.ParseFiles(files...)
+	// Show latest snippets
+	snippets, err := app.snippets.Latest()
 	if err != nil {
-		app.errorLog.Print(err.Error())
 		app.serverError(w, err)
 		return
 	}
 
+	for _, snippet := range snippets {
+		fmt.Fprintf(w, "%+v\n", snippet)
+	}
+
+	// Initialize a slice function containing paths to templates.
+	// It's important to note that the file containing our BASE tmpl must be
+	// the *first* file in the slice.
+	//files := []string{
+	//	"./ui/html/base.tmpl.html",
+	//	"./ui/html/partials/nav.tmpl.html",
+	//	"./ui/html/pages/home.tmpl.html",
+	//}
+
+	// Parse HTML template into variable
+	//ts, err := template.ParseFiles(files...)
+	//if err != nil {
+	//	app.errorLog.Print(err.Error())
+	//	app.serverError(w, err)
+	//	return
+	//}
+
 	// Use the ExecuteTemplate() method to write the content of the "base"
 	// template as the response body.
-	err = ts.ExecuteTemplate(w, "base", nil)
-	if err != nil {
-		app.errorLog.Print(err.Error())
-		app.serverError(w, err)
-	}
+	//err = ts.ExecuteTemplate(w, "base", nil)
+	//if err != nil {
+	//	app.errorLog.Print(err.Error())
+	//	app.serverError(w, err)
+	//}
 }
 
 func (app *application) snippetView(w http.ResponseWriter, r *http.Request) {
